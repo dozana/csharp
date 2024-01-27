@@ -1,0 +1,7 @@
+C:\Users\Levan\Desktop\csharp\02_type_conversion\bin\Debug\02_type_conversion.exe.config
+C:\Users\Levan\Desktop\csharp\02_type_conversion\bin\Debug\02_type_conversion.exe
+C:\Users\Levan\Desktop\csharp\02_type_conversion\bin\Debug\02_type_conversion.pdb
+C:\Users\Levan\Desktop\csharp\02_type_conversion\obj\Debug\02_type_conversion.csproj.AssemblyReference.cache
+C:\Users\Levan\Desktop\csharp\02_type_conversion\obj\Debug\02_type_conversion.csproj.CoreCompileInputs.cache
+C:\Users\Levan\Desktop\csharp\02_type_conversion\obj\Debug\02_type_conversion.exe
+C:\Users\Levan\Desktop\csharp\02_type_conversion\obj\Debug\02_type_conversion.pdb

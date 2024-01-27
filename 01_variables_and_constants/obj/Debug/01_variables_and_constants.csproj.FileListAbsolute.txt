@@ -1,0 +1,7 @@
+C:\Users\Levan\Desktop\csharp\01_variables_and_constants\bin\Debug\01_variables_and_constants.exe.config
+C:\Users\Levan\Desktop\csharp\01_variables_and_constants\bin\Debug\01_variables_and_constants.exe
+C:\Users\Levan\Desktop\csharp\01_variables_and_constants\bin\Debug\01_variables_and_constants.pdb
+C:\Users\Levan\Desktop\csharp\01_variables_and_constants\obj\Debug\01_variables_and_constants.csproj.AssemblyReference.cache
+C:\Users\Levan\Desktop\csharp\01_variables_and_constants\obj\Debug\01_variables_and_constants.csproj.CoreCompileInputs.cache
+C:\Users\Levan\Desktop\csharp\01_variables_and_constants\obj\Debug\01_variables_and_constants.exe
+C:\Users\Levan\Desktop\csharp\01_variables_and_constants\obj\Debug\01_variables_and_constants.pdb

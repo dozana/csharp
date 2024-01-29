@@ -1,0 +1,7 @@
+C:\Users\Levan\Desktop\csharp\09_if_else_and_switch\bin\Debug\09_if_else_and_switch.exe.config
+C:\Users\Levan\Desktop\csharp\09_if_else_and_switch\bin\Debug\09_if_else_and_switch.exe
+C:\Users\Levan\Desktop\csharp\09_if_else_and_switch\bin\Debug\09_if_else_and_switch.pdb
+C:\Users\Levan\Desktop\csharp\09_if_else_and_switch\obj\Debug\09_if_else_and_switch.csproj.AssemblyReference.cache
+C:\Users\Levan\Desktop\csharp\09_if_else_and_switch\obj\Debug\09_if_else_and_switch.csproj.CoreCompileInputs.cache
+C:\Users\Levan\Desktop\csharp\09_if_else_and_switch\obj\Debug\09_if_else_and_switch.exe
+C:\Users\Levan\Desktop\csharp\09_if_else_and_switch\obj\Debug\09_if_else_and_switch.pdb

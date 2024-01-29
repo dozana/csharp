@@ -1,0 +1,7 @@
+C:\Users\Levan\Desktop\csharp\06_strings\bin\Debug\06_strings.exe.config
+C:\Users\Levan\Desktop\csharp\06_strings\bin\Debug\06_strings.exe
+C:\Users\Levan\Desktop\csharp\06_strings\bin\Debug\06_strings.pdb
+C:\Users\Levan\Desktop\csharp\06_strings\obj\Debug\06_strings.csproj.AssemblyReference.cache
+C:\Users\Levan\Desktop\csharp\06_strings\obj\Debug\06_strings.csproj.CoreCompileInputs.cache
+C:\Users\Levan\Desktop\csharp\06_strings\obj\Debug\06_strings.exe
+C:\Users\Levan\Desktop\csharp\06_strings\obj\Debug\06_strings.pdb

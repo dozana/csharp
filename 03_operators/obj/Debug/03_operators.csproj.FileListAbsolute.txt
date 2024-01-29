@@ -1,0 +1,7 @@
+C:\Users\Levan\Desktop\csharp\03_operators\bin\Debug\03_operators.exe.config
+C:\Users\Levan\Desktop\csharp\03_operators\bin\Debug\03_operators.exe
+C:\Users\Levan\Desktop\csharp\03_operators\bin\Debug\03_operators.pdb
+C:\Users\Levan\Desktop\csharp\03_operators\obj\Debug\03_operators.csproj.AssemblyReference.cache
+C:\Users\Levan\Desktop\csharp\03_operators\obj\Debug\03_operators.csproj.CoreCompileInputs.cache
+C:\Users\Levan\Desktop\csharp\03_operators\obj\Debug\03_operators.exe
+C:\Users\Levan\Desktop\csharp\03_operators\obj\Debug\03_operators.pdb

@@ -1,0 +1,7 @@
+C:\Users\Levan\Desktop\csharp\05_arrays\bin\Debug\05_arrays.exe.config
+C:\Users\Levan\Desktop\csharp\05_arrays\bin\Debug\05_arrays.exe
+C:\Users\Levan\Desktop\csharp\05_arrays\bin\Debug\05_arrays.pdb
+C:\Users\Levan\Desktop\csharp\05_arrays\obj\Debug\05_arrays.csproj.AssemblyReference.cache
+C:\Users\Levan\Desktop\csharp\05_arrays\obj\Debug\05_arrays.csproj.CoreCompileInputs.cache
+C:\Users\Levan\Desktop\csharp\05_arrays\obj\Debug\05_arrays.exe
+C:\Users\Levan\Desktop\csharp\05_arrays\obj\Debug\05_arrays.pdb

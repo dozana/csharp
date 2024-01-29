@@ -1,0 +1,7 @@
+C:\Users\Levan\Desktop\csharp\07_enum\bin\Debug\07_enum.exe.config
+C:\Users\Levan\Desktop\csharp\07_enum\bin\Debug\07_enum.exe
+C:\Users\Levan\Desktop\csharp\07_enum\bin\Debug\07_enum.pdb
+C:\Users\Levan\Desktop\csharp\07_enum\obj\Debug\07_enum.csproj.AssemblyReference.cache
+C:\Users\Levan\Desktop\csharp\07_enum\obj\Debug\07_enum.csproj.CoreCompileInputs.cache
+C:\Users\Levan\Desktop\csharp\07_enum\obj\Debug\07_enum.exe
+C:\Users\Levan\Desktop\csharp\07_enum\obj\Debug\07_enum.pdb

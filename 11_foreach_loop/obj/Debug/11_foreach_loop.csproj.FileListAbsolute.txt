@@ -1,0 +1,7 @@
+C:\Users\Levan\Desktop\csharp\11_foreach_loop\bin\Debug\11_foreach_loop.exe.config
+C:\Users\Levan\Desktop\csharp\11_foreach_loop\bin\Debug\11_foreach_loop.exe
+C:\Users\Levan\Desktop\csharp\11_foreach_loop\bin\Debug\11_foreach_loop.pdb
+C:\Users\Levan\Desktop\csharp\11_foreach_loop\obj\Debug\11_foreach_loop.csproj.AssemblyReference.cache
+C:\Users\Levan\Desktop\csharp\11_foreach_loop\obj\Debug\11_foreach_loop.csproj.CoreCompileInputs.cache
+C:\Users\Levan\Desktop\csharp\11_foreach_loop\obj\Debug\11_foreach_loop.exe
+C:\Users\Levan\Desktop\csharp\11_foreach_loop\obj\Debug\11_foreach_loop.pdb

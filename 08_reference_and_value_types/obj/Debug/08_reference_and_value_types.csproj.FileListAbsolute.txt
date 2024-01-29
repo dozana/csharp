@@ -1,0 +1,7 @@
+C:\Users\Levan\Desktop\csharp\08_reference_and_value_types\bin\Debug\08_reference_and_value_types.exe.config
+C:\Users\Levan\Desktop\csharp\08_reference_and_value_types\bin\Debug\08_reference_and_value_types.exe
+C:\Users\Levan\Desktop\csharp\08_reference_and_value_types\bin\Debug\08_reference_and_value_types.pdb
+C:\Users\Levan\Desktop\csharp\08_reference_and_value_types\obj\Debug\08_reference_and_value_types.csproj.AssemblyReference.cache
+C:\Users\Levan\Desktop\csharp\08_reference_and_value_types\obj\Debug\08_reference_and_value_types.csproj.CoreCompileInputs.cache
+C:\Users\Levan\Desktop\csharp\08_reference_and_value_types\obj\Debug\08_reference_and_value_types.exe
+C:\Users\Levan\Desktop\csharp\08_reference_and_value_types\obj\Debug\08_reference_and_value_types.pdb

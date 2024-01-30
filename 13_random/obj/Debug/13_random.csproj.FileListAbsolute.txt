@@ -1,0 +1,7 @@
+C:\Users\Levan\Desktop\csharp\13_random\bin\Debug\13_random.exe.config
+C:\Users\Levan\Desktop\csharp\13_random\bin\Debug\13_random.exe
+C:\Users\Levan\Desktop\csharp\13_random\bin\Debug\13_random.pdb
+C:\Users\Levan\Desktop\csharp\13_random\obj\Debug\13_random.csproj.AssemblyReference.cache
+C:\Users\Levan\Desktop\csharp\13_random\obj\Debug\13_random.csproj.CoreCompileInputs.cache
+C:\Users\Levan\Desktop\csharp\13_random\obj\Debug\13_random.exe
+C:\Users\Levan\Desktop\csharp\13_random\obj\Debug\13_random.pdb

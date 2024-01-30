@@ -32,6 +32,22 @@ namespace _11_foreach_loop
             {
                 Console.WriteLine(number);
             }
+
+            Console.WriteLine("------");
+
+            var j = 0;
+
+            while (j < 10)
+            {
+                if (j % 2 == 0)
+                {
+                    Console.WriteLine(j);
+                }
+
+                j++;
+            }
+
+
         }
     }
 }

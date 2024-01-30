@@ -1,0 +1,7 @@
+C:\Users\Levan\Desktop\csharp\12_while_loop\bin\Debug\12_while_loop.exe.config
+C:\Users\Levan\Desktop\csharp\12_while_loop\bin\Debug\12_while_loop.exe
+C:\Users\Levan\Desktop\csharp\12_while_loop\bin\Debug\12_while_loop.pdb
+C:\Users\Levan\Desktop\csharp\12_while_loop\obj\Debug\12_while_loop.csproj.AssemblyReference.cache
+C:\Users\Levan\Desktop\csharp\12_while_loop\obj\Debug\12_while_loop.csproj.CoreCompileInputs.cache
+C:\Users\Levan\Desktop\csharp\12_while_loop\obj\Debug\12_while_loop.exe
+C:\Users\Levan\Desktop\csharp\12_while_loop\obj\Debug\12_while_loop.pdb

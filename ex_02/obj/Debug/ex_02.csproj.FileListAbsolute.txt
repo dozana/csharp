@@ -1,0 +1,7 @@
+C:\Users\Levan\Desktop\csharp\ex_02\bin\Debug\ex_02.exe.config
+C:\Users\Levan\Desktop\csharp\ex_02\bin\Debug\ex_02.exe
+C:\Users\Levan\Desktop\csharp\ex_02\bin\Debug\ex_02.pdb
+C:\Users\Levan\Desktop\csharp\ex_02\obj\Debug\ex_02.csproj.AssemblyReference.cache
+C:\Users\Levan\Desktop\csharp\ex_02\obj\Debug\ex_02.csproj.CoreCompileInputs.cache
+C:\Users\Levan\Desktop\csharp\ex_02\obj\Debug\ex_02.exe
+C:\Users\Levan\Desktop\csharp\ex_02\obj\Debug\ex_02.pdb

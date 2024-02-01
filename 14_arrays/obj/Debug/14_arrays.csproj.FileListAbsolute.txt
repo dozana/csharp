@@ -1,0 +1,7 @@
+C:\Users\Levan\Desktop\csharp\14_arrays\bin\Debug\14_arrays.exe.config
+C:\Users\Levan\Desktop\csharp\14_arrays\bin\Debug\14_arrays.exe
+C:\Users\Levan\Desktop\csharp\14_arrays\bin\Debug\14_arrays.pdb
+C:\Users\Levan\Desktop\csharp\14_arrays\obj\Debug\14_arrays.csproj.AssemblyReference.cache
+C:\Users\Levan\Desktop\csharp\14_arrays\obj\Debug\14_arrays.csproj.CoreCompileInputs.cache
+C:\Users\Levan\Desktop\csharp\14_arrays\obj\Debug\14_arrays.exe
+C:\Users\Levan\Desktop\csharp\14_arrays\obj\Debug\14_arrays.pdb

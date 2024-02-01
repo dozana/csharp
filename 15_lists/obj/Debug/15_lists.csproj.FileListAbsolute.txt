@@ -1,0 +1,7 @@
+C:\Users\Levan\Desktop\csharp\15_lists\bin\Debug\15_lists.exe.config
+C:\Users\Levan\Desktop\csharp\15_lists\bin\Debug\15_lists.exe
+C:\Users\Levan\Desktop\csharp\15_lists\bin\Debug\15_lists.pdb
+C:\Users\Levan\Desktop\csharp\15_lists\obj\Debug\15_lists.csproj.AssemblyReference.cache
+C:\Users\Levan\Desktop\csharp\15_lists\obj\Debug\15_lists.csproj.CoreCompileInputs.cache
+C:\Users\Levan\Desktop\csharp\15_lists\obj\Debug\15_lists.exe
+C:\Users\Levan\Desktop\csharp\15_lists\obj\Debug\15_lists.pdb

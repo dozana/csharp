@@ -11,18 +11,6 @@ namespace _02_type_conversion
         static void Main(string[] args)
         {
             /*
-            
-                +--------------------------------------------
-                + მონაცემთა გადაყვანა ერთი ტიპიდან მეორე ტიპში 
-                +--------------------------------------------
-                
-                ამ პროცედურის ორი მეთოდი არსებობს
-
-
-
-            */
-
-            /*
             byte b = 1;
             int i = b;
             Console.WriteLine(i);
@@ -53,8 +41,8 @@ namespace _02_type_conversion
             }
             */
 
-            
 
+            /*
             try
             {
                 string str = "true";
@@ -65,6 +53,45 @@ namespace _02_type_conversion
             {
                 Console.WriteLine("The number could not be converted to a byte.");
             }
+            */
+
+
+            /*
+            string str = "5";
+            int parseStr = int.Parse(str);
+            int convertedStr = Convert.ToInt32(str);
+
+            Console.WriteLine(parseStr);
+            Console.WriteLine(convertedStr);
+            */
+
+
+            /*
+            string str = "5";
+
+            try
+            {
+                int parsedStr = int.Parse(str);
+                Console.WriteLine("Succesfull Parse");
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Unseccesfull Parse");
+            }
+            */
+
+
+
+            /* */
+            // TryParse exeption-ის ნაცვლად აბრუნებს 0
+
+            string str = "dsafasd1";
+            int a;
+
+            bool isParsed = int.TryParse(str, out a);
+
+            Console.WriteLine(a);
+           
 
 
         }

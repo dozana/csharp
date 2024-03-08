@@ -16,3 +16,12 @@ C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\
 C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.genruntimeconfig.cache
 C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\ref\EmployeeManagementSystem.dll
 C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.Properties.Resources.resources
+C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.RegisterForm.resources
+C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.csproj.AssemblyReference.cache
+C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\Employee.A4622930.Up2Date

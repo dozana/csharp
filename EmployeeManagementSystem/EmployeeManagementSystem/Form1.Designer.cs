@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
+            pictureBox1 = new PictureBox();
             label6 = new Label();
             login_signupBtn = new Button();
             label5 = new Label();
@@ -41,7 +42,6 @@
             label4 = new Label();
             login_btn = new Button();
             login_showPass = new CheckBox();
-            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -59,6 +59,15 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(230, 400);
             panel1.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(47, 65);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(128, 128);
+            pictureBox1.TabIndex = 9;
+            pictureBox1.TabStop = false;
             // 
             // label6
             // 
@@ -86,13 +95,14 @@
             login_signupBtn.TabIndex = 1;
             login_signupBtn.Text = "SIGNUP";
             login_signupBtn.UseVisualStyleBackColor = false;
+            login_signupBtn.Click += login_signupBtn_Click;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.White;
-            label5.Location = new Point(44, 312);
+            label5.Location = new Point(46, 312);
             label5.Name = "label5";
             label5.Size = new Size(136, 17);
             label5.TabIndex = 0;
@@ -145,6 +155,7 @@
             login_password.Location = new Point(275, 252);
             login_password.Multiline = true;
             login_password.Name = "login_password";
+            login_password.PasswordChar = '*';
             login_password.Size = new Size(261, 25);
             login_password.TabIndex = 6;
             // 
@@ -172,8 +183,9 @@
             login_btn.Name = "login_btn";
             login_btn.Size = new Size(86, 41);
             login_btn.TabIndex = 7;
-            login_btn.Text = "LOGIN";
+            login_btn.Text = "SIGNIN";
             login_btn.UseVisualStyleBackColor = false;
+            login_btn.Click += login_btn_Click;
             // 
             // login_showPass
             // 
@@ -184,15 +196,7 @@
             login_showPass.TabIndex = 8;
             login_showPass.Text = "Show Password";
             login_showPass.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(47, 65);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(128, 128);
-            pictureBox1.TabIndex = 9;
-            pictureBox1.TabStop = false;
+            login_showPass.CheckedChanged += login_showPass_CheckedChanged;
             // 
             // Form1
             // 

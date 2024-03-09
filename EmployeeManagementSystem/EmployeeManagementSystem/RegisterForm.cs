@@ -13,7 +13,6 @@ namespace EmployeeManagementSystem
 {
     public partial class RegisterForm : Form
     {
-        // SqlConnection connect = new SqlConnection(@"Data Source=DESKTOP-R150C1E\\SQLEXPRESS;Initial Catalog=employee;User ID=sa;Password=111111;");
         SqlConnection connect = new SqlConnection(@"Data Source=DESKTOP-R150C1E\SQLEXPRESS;Initial Catalog=employee;Integrated Security=True;");
 
         public RegisterForm()

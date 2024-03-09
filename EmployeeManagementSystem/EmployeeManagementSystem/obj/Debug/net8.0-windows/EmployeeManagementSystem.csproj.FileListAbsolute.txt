@@ -25,3 +25,4 @@ C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\bin\
 C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.csproj.AssemblyReference.cache
 C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\Employee.A4622930.Up2Date
+C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.MainForm.resources

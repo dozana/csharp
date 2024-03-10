@@ -33,16 +33,20 @@
             exit = new Label();
             panel2 = new Panel();
             label4 = new Label();
-            button4 = new Button();
-            button3 = new Button();
-            button1 = new Button();
-            button2 = new Button();
-            label3 = new Label();
+            logout_btn = new Button();
+            salary_btn = new Button();
+            dashboard_btn = new Button();
+            addEmployee_btn = new Button();
+            greet_user = new Label();
             pictureBox1 = new PictureBox();
             panel3 = new Panel();
+            dashboard1 = new Dashboard();
+            addEmployee1 = new AddEmployee();
+            salary1 = new Salary();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -83,11 +87,11 @@
             // 
             panel2.BackColor = Color.FromArgb(75, 8, 138);
             panel2.Controls.Add(label4);
-            panel2.Controls.Add(button4);
-            panel2.Controls.Add(button3);
-            panel2.Controls.Add(button1);
-            panel2.Controls.Add(button2);
-            panel2.Controls.Add(label3);
+            panel2.Controls.Add(logout_btn);
+            panel2.Controls.Add(salary_btn);
+            panel2.Controls.Add(dashboard_btn);
+            panel2.Controls.Add(addEmployee_btn);
+            panel2.Controls.Add(greet_user);
             panel2.Controls.Add(pictureBox1);
             panel2.Dock = DockStyle.Left;
             panel2.Location = new Point(0, 35);
@@ -105,88 +109,92 @@
             label4.TabIndex = 6;
             label4.Text = "Sign Out";
             // 
-            // button4
+            // logout_btn
             // 
-            button4.Cursor = Cursors.Hand;
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatAppearance.CheckedBackColor = Color.FromArgb(75, 8, 138);
-            button4.FlatAppearance.MouseDownBackColor = Color.FromArgb(75, 8, 138);
-            button4.FlatAppearance.MouseOverBackColor = Color.FromArgb(75, 8, 138);
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.ForeColor = Color.White;
-            button4.Image = Properties.Resources.exit;
-            button4.Location = new Point(12, 505);
-            button4.Name = "button4";
-            button4.Size = new Size(48, 48);
-            button4.TabIndex = 5;
-            button4.UseVisualStyleBackColor = true;
+            logout_btn.Cursor = Cursors.Hand;
+            logout_btn.FlatAppearance.BorderSize = 0;
+            logout_btn.FlatAppearance.CheckedBackColor = Color.FromArgb(75, 8, 138);
+            logout_btn.FlatAppearance.MouseDownBackColor = Color.FromArgb(75, 8, 138);
+            logout_btn.FlatAppearance.MouseOverBackColor = Color.FromArgb(75, 8, 138);
+            logout_btn.FlatStyle = FlatStyle.Flat;
+            logout_btn.ForeColor = Color.White;
+            logout_btn.Image = Properties.Resources.exit;
+            logout_btn.Location = new Point(12, 505);
+            logout_btn.Name = "logout_btn";
+            logout_btn.Size = new Size(48, 48);
+            logout_btn.TabIndex = 5;
+            logout_btn.UseVisualStyleBackColor = true;
+            logout_btn.Click += logout_btn_Click;
             // 
-            // button3
+            // salary_btn
             // 
-            button3.BackColor = Color.FromArgb(33, 11, 97);
-            button3.Cursor = Cursors.Hand;
-            button3.FlatAppearance.CheckedBackColor = Color.FromArgb(75, 8, 138);
-            button3.FlatAppearance.MouseDownBackColor = Color.FromArgb(75, 8, 138);
-            button3.FlatAppearance.MouseOverBackColor = Color.FromArgb(75, 8, 138);
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.ForeColor = Color.White;
-            button3.Image = Properties.Resources.salary;
-            button3.ImageAlign = ContentAlignment.MiddleLeft;
-            button3.Location = new Point(12, 365);
-            button3.Name = "button3";
-            button3.Size = new Size(200, 65);
-            button3.TabIndex = 4;
-            button3.Text = "SALARY";
-            button3.TextAlign = ContentAlignment.MiddleRight;
-            button3.UseVisualStyleBackColor = false;
+            salary_btn.BackColor = Color.FromArgb(33, 11, 97);
+            salary_btn.Cursor = Cursors.Hand;
+            salary_btn.FlatAppearance.CheckedBackColor = Color.FromArgb(75, 8, 138);
+            salary_btn.FlatAppearance.MouseDownBackColor = Color.FromArgb(75, 8, 138);
+            salary_btn.FlatAppearance.MouseOverBackColor = Color.FromArgb(75, 8, 138);
+            salary_btn.FlatStyle = FlatStyle.Flat;
+            salary_btn.ForeColor = Color.White;
+            salary_btn.Image = Properties.Resources.salary;
+            salary_btn.ImageAlign = ContentAlignment.MiddleLeft;
+            salary_btn.Location = new Point(12, 365);
+            salary_btn.Name = "salary_btn";
+            salary_btn.Size = new Size(200, 65);
+            salary_btn.TabIndex = 4;
+            salary_btn.Text = "SALARY";
+            salary_btn.TextAlign = ContentAlignment.MiddleRight;
+            salary_btn.UseVisualStyleBackColor = false;
+            salary_btn.Click += salary_btn_Click;
             // 
-            // button1
+            // dashboard_btn
             // 
-            button1.BackColor = Color.FromArgb(33, 11, 97);
-            button1.Cursor = Cursors.Hand;
-            button1.FlatAppearance.CheckedBackColor = Color.FromArgb(75, 8, 138);
-            button1.FlatAppearance.MouseDownBackColor = Color.FromArgb(75, 8, 138);
-            button1.FlatAppearance.MouseOverBackColor = Color.FromArgb(75, 8, 138);
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.ForeColor = Color.White;
-            button1.Image = Properties.Resources.dashboard;
-            button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(12, 219);
-            button1.Name = "button1";
-            button1.Size = new Size(200, 65);
-            button1.TabIndex = 2;
-            button1.Text = "DASHBOARD";
-            button1.TextAlign = ContentAlignment.MiddleRight;
-            button1.UseVisualStyleBackColor = false;
+            dashboard_btn.BackColor = Color.FromArgb(33, 11, 97);
+            dashboard_btn.Cursor = Cursors.Hand;
+            dashboard_btn.FlatAppearance.CheckedBackColor = Color.FromArgb(75, 8, 138);
+            dashboard_btn.FlatAppearance.MouseDownBackColor = Color.FromArgb(75, 8, 138);
+            dashboard_btn.FlatAppearance.MouseOverBackColor = Color.FromArgb(75, 8, 138);
+            dashboard_btn.FlatStyle = FlatStyle.Flat;
+            dashboard_btn.ForeColor = Color.White;
+            dashboard_btn.Image = Properties.Resources.dashboard;
+            dashboard_btn.ImageAlign = ContentAlignment.MiddleLeft;
+            dashboard_btn.Location = new Point(12, 219);
+            dashboard_btn.Name = "dashboard_btn";
+            dashboard_btn.Size = new Size(200, 65);
+            dashboard_btn.TabIndex = 2;
+            dashboard_btn.Text = "DASHBOARD";
+            dashboard_btn.TextAlign = ContentAlignment.MiddleRight;
+            dashboard_btn.UseVisualStyleBackColor = false;
+            dashboard_btn.Click += dashboard_btn_Click;
             // 
-            // button2
+            // addEmployee_btn
             // 
-            button2.BackColor = Color.FromArgb(33, 11, 97);
-            button2.Cursor = Cursors.Hand;
-            button2.FlatAppearance.CheckedBackColor = Color.FromArgb(75, 8, 138);
-            button2.FlatAppearance.MouseDownBackColor = Color.FromArgb(75, 8, 138);
-            button2.FlatAppearance.MouseOverBackColor = Color.FromArgb(75, 8, 138);
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.ForeColor = Color.White;
-            button2.Image = Properties.Resources.add_employee;
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(12, 292);
-            button2.Name = "button2";
-            button2.Size = new Size(200, 65);
-            button2.TabIndex = 3;
-            button2.Text = "ADD EMPLOYEE";
-            button2.TextAlign = ContentAlignment.MiddleRight;
-            button2.UseVisualStyleBackColor = false;
+            addEmployee_btn.BackColor = Color.FromArgb(33, 11, 97);
+            addEmployee_btn.Cursor = Cursors.Hand;
+            addEmployee_btn.FlatAppearance.CheckedBackColor = Color.FromArgb(75, 8, 138);
+            addEmployee_btn.FlatAppearance.MouseDownBackColor = Color.FromArgb(75, 8, 138);
+            addEmployee_btn.FlatAppearance.MouseOverBackColor = Color.FromArgb(75, 8, 138);
+            addEmployee_btn.FlatStyle = FlatStyle.Flat;
+            addEmployee_btn.ForeColor = Color.White;
+            addEmployee_btn.Image = Properties.Resources.add_employee;
+            addEmployee_btn.ImageAlign = ContentAlignment.MiddleLeft;
+            addEmployee_btn.Location = new Point(12, 292);
+            addEmployee_btn.Name = "addEmployee_btn";
+            addEmployee_btn.Size = new Size(200, 65);
+            addEmployee_btn.TabIndex = 3;
+            addEmployee_btn.Text = "ADD EMPLOYEE";
+            addEmployee_btn.TextAlign = ContentAlignment.MiddleRight;
+            addEmployee_btn.UseVisualStyleBackColor = false;
+            addEmployee_btn.Click += addEmployee_btn_Click;
             // 
-            // label3
+            // greet_user
             // 
-            label3.AutoSize = true;
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(65, 158);
-            label3.Name = "label3";
-            label3.Size = new Size(86, 15);
-            label3.TabIndex = 1;
-            label3.Text = "Welcome, User";
+            greet_user.AutoSize = true;
+            greet_user.ForeColor = Color.White;
+            greet_user.Location = new Point(65, 158);
+            greet_user.Name = "greet_user";
+            greet_user.Size = new Size(86, 15);
+            greet_user.TabIndex = 1;
+            greet_user.Text = "Welcome, User";
             // 
             // pictureBox1
             // 
@@ -199,11 +207,35 @@
             // 
             // panel3
             // 
+            panel3.Controls.Add(dashboard1);
+            panel3.Controls.Add(addEmployee1);
+            panel3.Controls.Add(salary1);
             panel3.Dock = DockStyle.Fill;
             panel3.Location = new Point(225, 35);
             panel3.Name = "panel3";
             panel3.Size = new Size(875, 565);
             panel3.TabIndex = 2;
+            // 
+            // dashboard1
+            // 
+            dashboard1.Location = new Point(0, 0);
+            dashboard1.Name = "dashboard1";
+            dashboard1.Size = new Size(875, 565);
+            dashboard1.TabIndex = 2;
+            // 
+            // addEmployee1
+            // 
+            addEmployee1.Location = new Point(1, 1);
+            addEmployee1.Name = "addEmployee1";
+            addEmployee1.Size = new Size(875, 565);
+            addEmployee1.TabIndex = 1;
+            // 
+            // salary1
+            // 
+            salary1.Location = new Point(0, 0);
+            salary1.Name = "salary1";
+            salary1.Size = new Size(875, 565);
+            salary1.TabIndex = 0;
             // 
             // MainForm
             // 
@@ -223,6 +255,7 @@
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel3.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -233,12 +266,15 @@
         private Label label2;
         private Panel panel2;
         private PictureBox pictureBox1;
-        private Label label3;
-        private Button button1;
-        private Button button3;
-        private Button button2;
-        private Button button4;
+        private Label greet_user;
+        private Button dashboard_btn;
+        private Button salary_btn;
+        private Button addEmployee_btn;
+        private Button logout_btn;
         private Label label4;
         private Panel panel3;
+        private AddEmployee addEmployee1;
+        private Salary salary1;
+        private Dashboard dashboard1;
     }
 }

@@ -26,3 +26,6 @@ C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\bin\
 C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.csproj.AssemblyReference.cache
 C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\Employee.A4622930.Up2Date
 C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.MainForm.resources
+C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.AddEmployee.resources
+C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.Dashboard.resources
+C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.Salary.resources

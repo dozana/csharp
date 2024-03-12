@@ -32,6 +32,8 @@
             dataGridView1 = new DataGridView();
             label1 = new Label();
             panel2 = new Panel();
+            addEmployee_salary = new TextBox();
+            label8 = new Label();
             addEmployee_status = new ComboBox();
             label7 = new Label();
             addEmployee_clearBtn = new Button();
@@ -70,10 +72,13 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.EnableHeadersVisualStyles = false;
             dataGridView1.Location = new Point(24, 66);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersVisible = false;
             dataGridView1.Size = new Size(778, 179);
             dataGridView1.TabIndex = 1;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // label1
             // 
@@ -89,6 +94,8 @@
             // 
             panel2.BackColor = Color.White;
             panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(addEmployee_salary);
+            panel2.Controls.Add(label8);
             panel2.Controls.Add(addEmployee_status);
             panel2.Controls.Add(label7);
             panel2.Controls.Add(addEmployee_clearBtn);
@@ -111,6 +118,22 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(823, 252);
             panel2.TabIndex = 1;
+            // 
+            // addEmployee_salary
+            // 
+            addEmployee_salary.Location = new Point(398, 113);
+            addEmployee_salary.Name = "addEmployee_salary";
+            addEmployee_salary.Size = new Size(161, 23);
+            addEmployee_salary.TabIndex = 19;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(298, 116);
+            label8.Name = "label8";
+            label8.Size = new Size(38, 15);
+            label8.TabIndex = 18;
+            label8.Text = "Salary";
             // 
             // addEmployee_status
             // 
@@ -356,5 +379,7 @@
         private Button addEmployee_updateBtn;
         private ComboBox addEmployee_status;
         private Label label7;
+        private TextBox addEmployee_salary;
+        private Label label8;
     }
 }

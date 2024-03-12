@@ -33,7 +33,13 @@ namespace EmployeeManagementSystem
 
         private void addEmployee_addBtn_Click(object sender, EventArgs e)
         {
-            if (addEmployee_id.Text == "" || addEmployee_fullName.Text == "" || addEmployee_gender.Text == "" || addEmployee_phoneNumber.Text == "" || addEmployee_position.Text == "" || addEmployee_status.Text == "" || addEmployee_picture.Image == null)
+            if (addEmployee_id.Text == "" ||
+                addEmployee_fullName.Text == "" ||
+                addEmployee_gender.Text == "" ||
+                addEmployee_phoneNumber.Text == "" ||
+                addEmployee_position.Text == "" ||
+                addEmployee_status.Text == "" ||
+                addEmployee_picture.Image == null)
             {
                 MessageBox.Show("Please fill all blank fields.", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -62,8 +68,8 @@ namespace EmployeeManagementSystem
                             {
                                 DateTime today = DateTime.Today;
 
-                                string insertData = "INSERT INTO employees(employee_id, full_name, gender, contact_number, position, image, insert_data, status) " +
-                                    "VALUES(@employeeID, @fullName, @gender, @contactNum, @position, @image, @insertData, @status)";
+                                string insertData = "INSERT INTO employees(employee_id, full_name, gender, contact_number, position, image, salary, insert_date, status) " +
+                                    "VALUES(@employeeID, @fullName, @gender, @contactNum, @position, @image, @salary, @insertDate, @status)";
 
                                 string path = Path.Combine(@"C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\Directory\" + addEmployee_id.Text.Trim() + ".jpg");
 
@@ -84,7 +90,8 @@ namespace EmployeeManagementSystem
                                     cmd.Parameters.AddWithValue("@contactNum", addEmployee_phoneNumber.Text.Trim());
                                     cmd.Parameters.AddWithValue("@position", addEmployee_position.Text.Trim());
                                     cmd.Parameters.AddWithValue("@image", path);
-                                    cmd.Parameters.AddWithValue("@insertData", today);
+                                    cmd.Parameters.AddWithValue("@salary", 0);
+                                    cmd.Parameters.AddWithValue("@insertDate", today);
                                     cmd.Parameters.AddWithValue("@status", addEmployee_status.Text.Trim());
 
                                     cmd.ExecuteNonQuery();
@@ -124,7 +131,7 @@ namespace EmployeeManagementSystem
                     addEmployee_picture.ImageLocation = imagePath;
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -132,6 +139,14 @@ namespace EmployeeManagementSystem
             finally
             {
                 connect.Close();
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex != -1)
+            {
+                DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
             }
         }
     }

@@ -1,0 +1,10 @@
+C:\Users\_\Desktop\csharp\Contacts\Contacts\bin\Debug\Contacts.exe.config
+C:\Users\_\Desktop\csharp\Contacts\Contacts\bin\Debug\Contacts.exe
+C:\Users\_\Desktop\csharp\Contacts\Contacts\bin\Debug\Contacts.pdb
+C:\Users\_\Desktop\csharp\Contacts\Contacts\obj\Debug\Contacts.csproj.AssemblyReference.cache
+C:\Users\_\Desktop\csharp\Contacts\Contacts\obj\Debug\Contacts.Form1.resources
+C:\Users\_\Desktop\csharp\Contacts\Contacts\obj\Debug\Contacts.Properties.Resources.resources
+C:\Users\_\Desktop\csharp\Contacts\Contacts\obj\Debug\Contacts.csproj.GenerateResource.cache
+C:\Users\_\Desktop\csharp\Contacts\Contacts\obj\Debug\Contacts.csproj.CoreCompileInputs.cache
+C:\Users\_\Desktop\csharp\Contacts\Contacts\obj\Debug\Contacts.exe
+C:\Users\_\Desktop\csharp\Contacts\Contacts\obj\Debug\Contacts.pdb

@@ -11,14 +11,14 @@ namespace EmployeeManagementSystem
     internal class EmployeeData
     {
         public int ID { get; set; }
-        public string EmployeeID { get; set; }
-        public string Name { get; set; }
-        public string Gender { get; set; }
-        public string Contact { get; set; }
-        public string Position { get; set; }
-        public string Image { get; set; }
+        public string? EmployeeID { get; set; }
+        public string? Name { get; set; }
+        public string? Gender { get; set; }
+        public string? Contact { get; set; }
+        public string? Position { get; set; }
+        public string? Image { get; set; }
         public int Salary { get; set; }
-        public string Status { get; set; }
+        public string? Status { get; set; }
 
 
         SqlConnection connect = new SqlConnection(@"Data Source=DESKTOP-R150C1E\SQLEXPRESS;Initial Catalog=employee;Integrated Security=True;");

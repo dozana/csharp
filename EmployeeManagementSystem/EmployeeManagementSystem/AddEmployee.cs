@@ -25,10 +25,17 @@ namespace EmployeeManagementSystem
 
         public void displayEmployeeData()
         {
-            EmployeeData ed = new EmployeeData();
-            List<EmployeeData> listData = ed.employeeListData();
+            try
+            {
+                EmployeeData ed = new EmployeeData();
+                List<EmployeeData> listData = ed.employeeListData();
 
-            dataGridView1.DataSource = listData;
+                dataGridView1.DataSource = listData;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error retrieving employee data: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void addEmployee_addBtn_Click(object sender, EventArgs e)
@@ -42,7 +49,6 @@ namespace EmployeeManagementSystem
                 addEmployee_picture.Image == null)
             {
                 MessageBox.Show("Please fill all blank fields.", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
             }
             else
             {
@@ -62,7 +68,6 @@ namespace EmployeeManagementSystem
                             if (count >= 1)
                             {
                                 MessageBox.Show(addEmployee_id.Text.Trim() + " is already taken", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                                return;
                             }
                             else
                             {
@@ -73,7 +78,7 @@ namespace EmployeeManagementSystem
 
                                 string path = Path.Combine(@"C:\Users\_\Desktop\csharp\EmployeeManagementSystem\EmployeeManagementSystem\Directory\" + addEmployee_id.Text.Trim() + ".jpg");
 
-                                string directoryPath = Path.GetDirectoryName(path);
+                                string? directoryPath = Path.GetDirectoryName(path);
 
                                 if (!Directory.Exists(directoryPath))
                                 {
@@ -106,7 +111,6 @@ namespace EmployeeManagementSystem
                     catch (Exception ex)
                     {
                         MessageBox.Show("Error: " + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        return;
                     }
                     finally
                     {
@@ -134,7 +138,6 @@ namespace EmployeeManagementSystem
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
             }
             finally
             {

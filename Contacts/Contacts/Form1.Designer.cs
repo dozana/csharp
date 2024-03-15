@@ -47,11 +47,11 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvContactList = new System.Windows.Forms.DataGridView();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.lblSearch = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvContactList)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -76,6 +76,7 @@
             // 
             this.textBoxContactID.Location = new System.Drawing.Point(76, 17);
             this.textBoxContactID.Name = "textBoxContactID";
+            this.textBoxContactID.ReadOnly = true;
             this.textBoxContactID.Size = new System.Drawing.Size(46, 20);
             this.textBoxContactID.TabIndex = 2;
             // 
@@ -189,6 +190,7 @@
             this.btnAdd.TabIndex = 15;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnUpdate
             // 
@@ -220,13 +222,13 @@
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // dgvContactList
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(279, 43);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(402, 197);
-            this.dataGridView1.TabIndex = 19;
+            this.dgvContactList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvContactList.Location = new System.Drawing.Point(279, 43);
+            this.dgvContactList.Name = "dgvContactList";
+            this.dgvContactList.Size = new System.Drawing.Size(402, 197);
+            this.dgvContactList.TabIndex = 19;
             // 
             // textBoxSearch
             // 
@@ -251,7 +253,7 @@
             this.ClientSize = new System.Drawing.Size(693, 396);
             this.Controls.Add(this.lblSearch);
             this.Controls.Add(this.textBoxSearch);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvContactList);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
@@ -272,9 +274,11 @@
             this.Controls.Add(this.lblContactID);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "My Contacts";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvContactList)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -301,7 +305,7 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvContactList;
         private System.Windows.Forms.TextBox textBoxSearch;
         private System.Windows.Forms.Label lblSearch;
     }

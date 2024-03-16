@@ -15,6 +15,7 @@ namespace Contacts.contactClasses
         public int ContactID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string Email { get; set; }
         public string Phone { get; set; }
         public string Address { get; set; }
         public string Gender { get; set; }
@@ -66,7 +67,7 @@ namespace Contacts.contactClasses
             try
             {
                 // step 2: create a sql query to insert data
-                string sql = "INSERT INTO tbl_contact(FirstName, LastName, Phone, Address, Gender) VALUES(@FirstName, @LastName, @Phone, @Address, @Gender)";
+                string sql = "INSERT INTO tbl_contact(FirstName, LastName, Email, Phone, Address, Gender) VALUES(@FirstName, @LastName, @Email, @Phone, @Address, @Gender)";
 
                 // creating cmd using sql and conn
                 SqlCommand cmd = new SqlCommand(sql, conn);
@@ -74,6 +75,7 @@ namespace Contacts.contactClasses
                 // create prameters to add data
                 cmd.Parameters.AddWithValue("@FirstName", c.FirstName);
                 cmd.Parameters.AddWithValue("@LastName", c.LastName);
+                cmd.Parameters.AddWithValue("@Email", c.Email);
                 cmd.Parameters.AddWithValue("@Phone", c.Phone);
                 cmd.Parameters.AddWithValue("@Address", c.Address);
                 cmd.Parameters.AddWithValue("@Gender", c.Gender);
@@ -116,18 +118,19 @@ namespace Contacts.contactClasses
             try
             {
                 // sql to update in our database
-                string sql = "UPDATE tbl_contact FirstName=@FirstName, LastName=@LastName, Phone=@Phone, Address=@Address, Gender=@Gender WHERE ContactID=@ContactID";
+                string sql = "UPDATE tbl_contact SET FirstName=@FirstName, LastName=@LastName, Phone=@Phone, Address=@Address, Gender=@Gender, Email=@Email WHERE ContactID=@ContactID";
 
                 // creating cmd using sql and conn
                 SqlCommand cmd = new SqlCommand(sql, conn);
 
                 // create parameters to add value
+                cmd.Parameters.AddWithValue("@ContactID", c.ContactID);
                 cmd.Parameters.AddWithValue("@FirstName", c.FirstName);
                 cmd.Parameters.AddWithValue("@LastName", c.LastName);
                 cmd.Parameters.AddWithValue("@Phone", c.Phone);
                 cmd.Parameters.AddWithValue("@Address", c.Address);
                 cmd.Parameters.AddWithValue("@Gender", c.Gender);
-                cmd.Parameters.AddWithValue("@ContactID", c.ContactID);
+                cmd.Parameters.AddWithValue("@Email", c.Email);
 
                 // open database connection
                 conn.Open();

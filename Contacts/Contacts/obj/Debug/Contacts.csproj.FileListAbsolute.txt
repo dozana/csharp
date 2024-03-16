@@ -8,3 +8,6 @@ C:\Users\_\Desktop\csharp\Contacts\Contacts\obj\Debug\Contacts.csproj.GenerateRe
 C:\Users\_\Desktop\csharp\Contacts\Contacts\obj\Debug\Contacts.csproj.CoreCompileInputs.cache
 C:\Users\_\Desktop\csharp\Contacts\Contacts\obj\Debug\Contacts.exe
 C:\Users\_\Desktop\csharp\Contacts\Contacts\obj\Debug\Contacts.pdb
+C:\Users\_\Desktop\csharp\Contacts\Contacts\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\_\Desktop\csharp\Contacts\Contacts\bin\Debug\stdole.dll
+C:\Users\_\Desktop\csharp\Contacts\Contacts\obj\Debug\Contacts.csproj.Up2Date

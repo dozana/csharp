@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblContactID = new System.Windows.Forms.Label();
             this.textBoxContactID = new System.Windows.Forms.TextBox();
             this.textBoxFirstName = new System.Windows.Forms.TextBox();
@@ -51,7 +52,9 @@
             this.lblSearch = new System.Windows.Forms.Label();
             this.btnExportToExcel = new System.Windows.Forms.Button();
             this.btnImportFromExcel = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvContactList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblContactID
@@ -270,6 +273,10 @@
             this.btnImportFromExcel.UseVisualStyleBackColor = true;
             this.btnImportFromExcel.Click += new System.EventHandler(this.btnImportFromExcel_Click);
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -303,6 +310,7 @@
             this.Text = "My Contacts";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvContactList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -332,6 +340,7 @@
         private System.Windows.Forms.Label lblSearch;
         private System.Windows.Forms.Button btnExportToExcel;
         private System.Windows.Forms.Button btnImportFromExcel;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
 

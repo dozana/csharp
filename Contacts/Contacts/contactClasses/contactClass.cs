@@ -22,6 +22,18 @@ namespace Contacts.contactClasses
 
         static string myconnstring = ConfigurationManager.ConnectionStrings["connstrng"].ConnectionString;
 
+
+        // Reusable method to validate a textbox
+        private static bool ValidateTextBox(string text, string errorMessage)
+        {
+            if (string.IsNullOrEmpty(text.Trim()))
+            {
+                MessageBox.Show(errorMessage, "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false; // Validation failed
+            }
+            return true; // Validation passed
+        }
+
         // SELECTING DATA FROM DATABASE
         public DataTable Select()
         {

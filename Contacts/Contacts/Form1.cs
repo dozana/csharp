@@ -33,6 +33,15 @@ namespace Contacts
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(textBoxFirstName.Text.Trim()))
+            {
+                errorProvider1.SetError(textBoxFirstName, "FirstName is requireds");
+                return;
+            } else
+            {
+                errorProvider1.SetError(textBoxFirstName, string.Empty);
+            }
+
             // get the value from the input fields
             c.FirstName = textBoxFirstName.Text;
             c.LastName = textBoxLastName.Text;

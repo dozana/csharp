@@ -35,12 +35,48 @@ namespace Contacts
         {
             if (string.IsNullOrEmpty(textBoxFirstName.Text.Trim()))
             {
-                errorProvider1.SetError(textBoxFirstName, "FirstName is requireds");
+                errorProvider1.SetError(textBoxFirstName, "First Name is required");
+                MessageBox.Show("Please enter your first name!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
-            } else
+            }
+            else
             {
                 errorProvider1.SetError(textBoxFirstName, string.Empty);
             }
+
+            if (string.IsNullOrEmpty(textBoxLastName.Text.Trim()))
+            {
+                errorProvider1.SetError(textBoxLastName, "First Last is required");
+                MessageBox.Show("Please enter your last name!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            else
+            {
+                errorProvider1.SetError(textBoxLastName, string.Empty);
+            }
+
+            if (string.IsNullOrEmpty(textBoxEmail.Text.Trim()))
+            {
+                errorProvider1.SetError(textBoxEmail, "E-Mail is required");
+                MessageBox.Show("Please enter your E-Mail!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            else
+            {
+                errorProvider1.SetError(textBoxEmail, string.Empty);
+            }
+
+            if (string.IsNullOrEmpty(textBoxPhone.Text.Trim()))
+            {
+                errorProvider1.SetError(textBoxPhone, "Phone is required");
+                MessageBox.Show("Please enter phone!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            else
+            {
+                errorProvider1.SetError(textBoxPhone, string.Empty);
+            }
+
 
             // get the value from the input fields
             c.FirstName = textBoxFirstName.Text;
@@ -215,6 +251,5 @@ namespace Contacts
         {
             
         }
-
     }
 }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            label6 = new Label();
             button3 = new Button();
             button4 = new Button();
             button1 = new Button();
@@ -52,7 +53,7 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ButtonHighlight;
-            panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(label6);
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button4);
             panel1.Controls.Add(button1);
@@ -65,10 +66,21 @@
             panel1.Controls.Add(label3);
             panel1.Controls.Add(textBox1);
             panel1.Controls.Add(label2);
-            panel1.Location = new Point(11, 16);
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(235, 530);
+            panel1.Size = new Size(235, 565);
             panel1.TabIndex = 0;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 14F);
+            label6.Location = new Point(11, 17);
+            label6.Name = "label6";
+            label6.Size = new Size(69, 25);
+            label6.TabIndex = 17;
+            label6.Text = "Details";
             // 
             // button3
             // 
@@ -81,7 +93,7 @@
             button3.FlatAppearance.MouseOverBackColor = Color.FromArgb(75, 8, 138);
             button3.FlatStyle = FlatStyle.Flat;
             button3.ForeColor = Color.White;
-            button3.Location = new Point(120, 297);
+            button3.Location = new Point(120, 335);
             button3.Name = "button3";
             button3.Size = new Size(99, 33);
             button3.TabIndex = 16;
@@ -99,7 +111,7 @@
             button4.FlatAppearance.MouseOverBackColor = Color.FromArgb(75, 8, 138);
             button4.FlatStyle = FlatStyle.Flat;
             button4.ForeColor = Color.White;
-            button4.Location = new Point(15, 297);
+            button4.Location = new Point(15, 335);
             button4.Name = "button4";
             button4.Size = new Size(99, 33);
             button4.TabIndex = 15;
@@ -117,7 +129,7 @@
             button1.FlatAppearance.MouseOverBackColor = Color.FromArgb(75, 8, 138);
             button1.FlatStyle = FlatStyle.Flat;
             button1.ForeColor = Color.White;
-            button1.Location = new Point(120, 258);
+            button1.Location = new Point(120, 296);
             button1.Name = "button1";
             button1.Size = new Size(99, 33);
             button1.TabIndex = 14;
@@ -135,7 +147,7 @@
             button2.FlatAppearance.MouseOverBackColor = Color.FromArgb(75, 8, 138);
             button2.FlatStyle = FlatStyle.Flat;
             button2.ForeColor = Color.White;
-            button2.Location = new Point(15, 258);
+            button2.Location = new Point(15, 296);
             button2.Name = "button2";
             button2.Size = new Size(99, 33);
             button2.TabIndex = 13;
@@ -144,7 +156,7 @@
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(15, 199);
+            textBox4.Location = new Point(15, 237);
             textBox4.Multiline = true;
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(204, 25);
@@ -153,7 +165,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(15, 181);
+            label5.Location = new Point(15, 219);
             label5.Name = "label5";
             label5.Size = new Size(41, 15);
             label5.TabIndex = 6;
@@ -161,7 +173,7 @@
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(15, 145);
+            textBox3.Location = new Point(15, 183);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(204, 25);
@@ -170,7 +182,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(15, 127);
+            label4.Location = new Point(15, 165);
             label4.Name = "label4";
             label4.Size = new Size(53, 15);
             label4.TabIndex = 4;
@@ -178,7 +190,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(15, 90);
+            textBox2.Location = new Point(15, 128);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(204, 25);
@@ -187,7 +199,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(15, 72);
+            label3.Location = new Point(15, 110);
             label3.Name = "label3";
             label3.Size = new Size(64, 15);
             label3.TabIndex = 2;
@@ -195,7 +207,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(15, 35);
+            textBox1.Location = new Point(15, 73);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(204, 25);
@@ -204,7 +216,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(15, 17);
+            label2.Location = new Point(15, 55);
             label2.Name = "label2";
             label2.Size = new Size(76, 15);
             label2.TabIndex = 0;
@@ -213,20 +225,21 @@
             // panel2
             // 
             panel2.BackColor = SystemColors.ButtonHighlight;
-            panel2.BorderStyle = BorderStyle.FixedSingle;
             panel2.Controls.Add(dataGridView1);
             panel2.Controls.Add(label1);
-            panel2.Location = new Point(252, 16);
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(235, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(605, 530);
+            panel2.Size = new Size(640, 565);
             panel2.TabIndex = 1;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(18, 55);
+            dataGridView1.Dock = DockStyle.Bottom;
+            dataGridView1.Location = new Point(0, 55);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(572, 460);
+            dataGridView1.Size = new Size(640, 510);
             dataGridView1.TabIndex = 1;
             // 
             // label1
@@ -235,9 +248,9 @@
             label1.Font = new Font("Segoe UI", 14F);
             label1.Location = new Point(18, 17);
             label1.Name = "label1";
-            label1.Size = new Size(102, 25);
+            label1.Size = new Size(135, 25);
             label1.TabIndex = 0;
-            label1.Text = "Employees";
+            label1.Text = "Employees List";
             // 
             // Salary
             // 
@@ -273,5 +286,6 @@
         private Button button4;
         private Button button1;
         private Button button2;
+        private Label label6;
     }
 }

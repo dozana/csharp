@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel1 = new Panel();
-            label2 = new Label();
-            exit = new Label();
             panel2 = new Panel();
             label4 = new Label();
             logout_btn = new Button();
@@ -43,45 +40,10 @@
             dashboard1 = new Dashboard();
             addEmployee1 = new AddEmployee();
             salary1 = new Salary();
-            panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel3.SuspendLayout();
             SuspendLayout();
-            // 
-            // panel1
-            // 
-            panel1.BackColor = Color.FromArgb(33, 11, 97);
-            panel1.BorderStyle = BorderStyle.FixedSingle;
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(exit);
-            panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1100, 35);
-            panel1.TabIndex = 0;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(12, 9);
-            label2.Name = "label2";
-            label2.Size = new Size(174, 15);
-            label2.TabIndex = 1;
-            label2.Text = "Employee Management System";
-            // 
-            // exit
-            // 
-            exit.AutoSize = true;
-            exit.Cursor = Cursors.Hand;
-            exit.ForeColor = Color.White;
-            exit.Location = new Point(1074, 9);
-            exit.Name = "exit";
-            exit.Size = new Size(14, 15);
-            exit.TabIndex = 1;
-            exit.Text = "X";
-            exit.Click += exit_Click;
             // 
             // panel2
             // 
@@ -94,16 +56,16 @@
             panel2.Controls.Add(greet_user);
             panel2.Controls.Add(pictureBox1);
             panel2.Dock = DockStyle.Left;
-            panel2.Location = new Point(0, 35);
+            panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(225, 565);
+            panel2.Size = new Size(225, 600);
             panel2.TabIndex = 1;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.ForeColor = Color.White;
-            label4.Location = new Point(66, 529);
+            label4.Location = new Point(65, 565);
             label4.Name = "label4";
             label4.Size = new Size(53, 15);
             label4.TabIndex = 6;
@@ -119,7 +81,7 @@
             logout_btn.FlatStyle = FlatStyle.Flat;
             logout_btn.ForeColor = Color.White;
             logout_btn.Image = Properties.Resources.exit;
-            logout_btn.Location = new Point(12, 505);
+            logout_btn.Location = new Point(11, 541);
             logout_btn.Name = "logout_btn";
             logout_btn.Size = new Size(48, 48);
             logout_btn.TabIndex = 5;
@@ -137,9 +99,9 @@
             salary_btn.ForeColor = Color.White;
             salary_btn.Image = Properties.Resources.salary;
             salary_btn.ImageAlign = ContentAlignment.MiddleLeft;
-            salary_btn.Location = new Point(12, 365);
+            salary_btn.Location = new Point(12, 319);
             salary_btn.Name = "salary_btn";
-            salary_btn.Size = new Size(200, 65);
+            salary_btn.Size = new Size(200, 31);
             salary_btn.TabIndex = 4;
             salary_btn.Text = "SALARY";
             salary_btn.TextAlign = ContentAlignment.MiddleRight;
@@ -157,9 +119,9 @@
             dashboard_btn.ForeColor = Color.White;
             dashboard_btn.Image = Properties.Resources.dashboard;
             dashboard_btn.ImageAlign = ContentAlignment.MiddleLeft;
-            dashboard_btn.Location = new Point(12, 219);
+            dashboard_btn.Location = new Point(12, 245);
             dashboard_btn.Name = "dashboard_btn";
-            dashboard_btn.Size = new Size(200, 65);
+            dashboard_btn.Size = new Size(200, 31);
             dashboard_btn.TabIndex = 2;
             dashboard_btn.Text = "DASHBOARD";
             dashboard_btn.TextAlign = ContentAlignment.MiddleRight;
@@ -177,9 +139,9 @@
             addEmployee_btn.ForeColor = Color.White;
             addEmployee_btn.Image = Properties.Resources.add_employee;
             addEmployee_btn.ImageAlign = ContentAlignment.MiddleLeft;
-            addEmployee_btn.Location = new Point(12, 292);
+            addEmployee_btn.Location = new Point(12, 282);
             addEmployee_btn.Name = "addEmployee_btn";
-            addEmployee_btn.Size = new Size(200, 65);
+            addEmployee_btn.Size = new Size(200, 31);
             addEmployee_btn.TabIndex = 3;
             addEmployee_btn.Text = "ADD EMPLOYEE";
             addEmployee_btn.TextAlign = ContentAlignment.MiddleRight;
@@ -190,7 +152,7 @@
             // 
             greet_user.AutoSize = true;
             greet_user.ForeColor = Color.White;
-            greet_user.Location = new Point(65, 158);
+            greet_user.Location = new Point(66, 193);
             greet_user.Name = "greet_user";
             greet_user.Size = new Size(86, 15);
             greet_user.TabIndex = 1;
@@ -199,7 +161,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.employees;
-            pictureBox1.Location = new Point(47, 22);
+            pictureBox1.Location = new Point(48, 57);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(128, 128);
             pictureBox1.TabIndex = 0;
@@ -211,16 +173,17 @@
             panel3.Controls.Add(addEmployee1);
             panel3.Controls.Add(salary1);
             panel3.Dock = DockStyle.Fill;
-            panel3.Location = new Point(225, 35);
+            panel3.Location = new Point(225, 0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(875, 565);
+            panel3.Size = new Size(875, 600);
             panel3.TabIndex = 2;
             // 
             // dashboard1
             // 
+            dashboard1.Dock = DockStyle.Fill;
             dashboard1.Location = new Point(0, 0);
             dashboard1.Name = "dashboard1";
-            dashboard1.Size = new Size(875, 565);
+            dashboard1.Size = new Size(875, 600);
             dashboard1.TabIndex = 2;
             // 
             // addEmployee1
@@ -245,13 +208,9 @@
             ClientSize = new Size(1100, 600);
             Controls.Add(panel3);
             Controls.Add(panel2);
-            Controls.Add(panel1);
-            FormBorderStyle = FormBorderStyle.None;
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "MainForm";
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            Text = "Employee Management System";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -260,10 +219,6 @@
         }
 
         #endregion
-
-        private Panel panel1;
-        private Label exit;
-        private Label label2;
         private Panel panel2;
         private PictureBox pictureBox1;
         private Label greet_user;

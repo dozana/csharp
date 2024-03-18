@@ -34,7 +34,6 @@
             label6 = new Label();
             login_signupBtn = new Button();
             label5 = new Label();
-            exit = new Label();
             label2 = new Label();
             label3 = new Label();
             login_username = new TextBox();
@@ -107,18 +106,6 @@
             label5.Size = new Size(136, 17);
             label5.TabIndex = 0;
             label5.Text = "Register Your Account";
-            // 
-            // exit
-            // 
-            exit.AutoSize = true;
-            exit.Cursor = Cursors.Hand;
-            exit.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            exit.Location = new Point(550, 9);
-            exit.Name = "exit";
-            exit.Size = new Size(16, 17);
-            exit.TabIndex = 1;
-            exit.Text = "X";
-            exit.Click += exit_Click;
             // 
             // label2
             // 
@@ -211,12 +198,10 @@
             Controls.Add(login_username);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(exit);
             Controls.Add(panel1);
-            FormBorderStyle = FormBorderStyle.None;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "Login";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -227,7 +212,6 @@
         #endregion
 
         private Panel panel1;
-        private Label exit;
         private Label label2;
         private Label label3;
         private TextBox login_username;

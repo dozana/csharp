@@ -152,5 +152,10 @@ namespace EmployeeManagementSystem
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
             }
         }
+
+        private void addEmployee_updateBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

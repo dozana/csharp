@@ -51,8 +51,9 @@
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.lblSearch = new System.Windows.Forms.Label();
             this.btnExportToExcel = new System.Windows.Forms.Button();
-            this.btnImportFromExcel = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.lblDateOfBirth = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvContactList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -60,7 +61,7 @@
             // lblContactID
             // 
             this.lblContactID.AutoSize = true;
-            this.lblContactID.Location = new System.Drawing.Point(12, 19);
+            this.lblContactID.Location = new System.Drawing.Point(10, 19);
             this.lblContactID.Name = "lblContactID";
             this.lblContactID.Size = new System.Drawing.Size(58, 13);
             this.lblContactID.TabIndex = 1;
@@ -78,13 +79,13 @@
             // 
             this.textBoxFirstName.Location = new System.Drawing.Point(76, 42);
             this.textBoxFirstName.Name = "textBoxFirstName";
-            this.textBoxFirstName.Size = new System.Drawing.Size(197, 20);
+            this.textBoxFirstName.Size = new System.Drawing.Size(200, 20);
             this.textBoxFirstName.TabIndex = 4;
             // 
             // lblFirstName
             // 
             this.lblFirstName.AutoSize = true;
-            this.lblFirstName.Location = new System.Drawing.Point(13, 45);
+            this.lblFirstName.Location = new System.Drawing.Point(11, 45);
             this.lblFirstName.Name = "lblFirstName";
             this.lblFirstName.Size = new System.Drawing.Size(57, 13);
             this.lblFirstName.TabIndex = 3;
@@ -94,13 +95,13 @@
             // 
             this.textBoxLastName.Location = new System.Drawing.Point(76, 68);
             this.textBoxLastName.Name = "textBoxLastName";
-            this.textBoxLastName.Size = new System.Drawing.Size(197, 20);
+            this.textBoxLastName.Size = new System.Drawing.Size(200, 20);
             this.textBoxLastName.TabIndex = 6;
             // 
             // lblLastName
             // 
             this.lblLastName.AutoSize = true;
-            this.lblLastName.Location = new System.Drawing.Point(12, 71);
+            this.lblLastName.Location = new System.Drawing.Point(10, 71);
             this.lblLastName.Name = "lblLastName";
             this.lblLastName.Size = new System.Drawing.Size(58, 13);
             this.lblLastName.TabIndex = 5;
@@ -108,15 +109,15 @@
             // 
             // textBoxEmail
             // 
-            this.textBoxEmail.Location = new System.Drawing.Point(76, 94);
+            this.textBoxEmail.Location = new System.Drawing.Point(76, 123);
             this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(197, 20);
+            this.textBoxEmail.Size = new System.Drawing.Size(200, 20);
             this.textBoxEmail.TabIndex = 8;
             // 
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(34, 97);
+            this.lblEmail.Location = new System.Drawing.Point(32, 126);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(36, 13);
             this.lblEmail.TabIndex = 7;
@@ -124,15 +125,15 @@
             // 
             // textBoxPhone
             // 
-            this.textBoxPhone.Location = new System.Drawing.Point(76, 120);
+            this.textBoxPhone.Location = new System.Drawing.Point(76, 149);
             this.textBoxPhone.Name = "textBoxPhone";
-            this.textBoxPhone.Size = new System.Drawing.Size(197, 20);
+            this.textBoxPhone.Size = new System.Drawing.Size(200, 20);
             this.textBoxPhone.TabIndex = 10;
             // 
             // lblPhone
             // 
             this.lblPhone.AutoSize = true;
-            this.lblPhone.Location = new System.Drawing.Point(32, 123);
+            this.lblPhone.Location = new System.Drawing.Point(30, 152);
             this.lblPhone.Name = "lblPhone";
             this.lblPhone.Size = new System.Drawing.Size(38, 13);
             this.lblPhone.TabIndex = 9;
@@ -140,16 +141,16 @@
             // 
             // textBoxAddress
             // 
-            this.textBoxAddress.Location = new System.Drawing.Point(76, 146);
+            this.textBoxAddress.Location = new System.Drawing.Point(76, 175);
             this.textBoxAddress.Multiline = true;
             this.textBoxAddress.Name = "textBoxAddress";
-            this.textBoxAddress.Size = new System.Drawing.Size(197, 66);
+            this.textBoxAddress.Size = new System.Drawing.Size(200, 41);
             this.textBoxAddress.TabIndex = 12;
             // 
             // lblAddress
             // 
             this.lblAddress.AutoSize = true;
-            this.lblAddress.Location = new System.Drawing.Point(25, 149);
+            this.lblAddress.Location = new System.Drawing.Point(23, 178);
             this.lblAddress.Name = "lblAddress";
             this.lblAddress.Size = new System.Drawing.Size(45, 13);
             this.lblAddress.TabIndex = 11;
@@ -158,7 +159,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(28, 221);
+            this.label1.Location = new System.Drawing.Point(26, 225);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 13);
             this.label1.TabIndex = 13;
@@ -170,15 +171,15 @@
             this.cmbGender.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.cmbGender.Location = new System.Drawing.Point(76, 218);
+            this.cmbGender.Location = new System.Drawing.Point(76, 222);
             this.cmbGender.Name = "cmbGender";
-            this.cmbGender.Size = new System.Drawing.Size(197, 21);
+            this.cmbGender.Size = new System.Drawing.Size(200, 21);
             this.cmbGender.TabIndex = 14;
             // 
             // btnAdd
             // 
             this.btnAdd.BackColor = System.Drawing.Color.GreenYellow;
-            this.btnAdd.Location = new System.Drawing.Point(12, 249);
+            this.btnAdd.Location = new System.Drawing.Point(11, 291);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(61, 28);
             this.btnAdd.TabIndex = 15;
@@ -189,7 +190,7 @@
             // btnUpdate
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.Aquamarine;
-            this.btnUpdate.Location = new System.Drawing.Point(79, 249);
+            this.btnUpdate.Location = new System.Drawing.Point(76, 291);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(61, 28);
             this.btnUpdate.TabIndex = 16;
@@ -200,7 +201,7 @@
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.Color.Salmon;
-            this.btnDelete.Location = new System.Drawing.Point(146, 249);
+            this.btnDelete.Location = new System.Drawing.Point(143, 291);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(61, 28);
             this.btnDelete.TabIndex = 17;
@@ -211,7 +212,7 @@
             // btnClear
             // 
             this.btnClear.BackColor = System.Drawing.Color.Orange;
-            this.btnClear.Location = new System.Drawing.Point(213, 249);
+            this.btnClear.Location = new System.Drawing.Point(210, 291);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(61, 28);
             this.btnClear.TabIndex = 18;
@@ -226,9 +227,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvContactList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvContactList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvContactList.Location = new System.Drawing.Point(279, 42);
+            this.dgvContactList.Location = new System.Drawing.Point(300, 42);
             this.dgvContactList.Name = "dgvContactList";
-            this.dgvContactList.Size = new System.Drawing.Size(362, 260);
+            this.dgvContactList.Size = new System.Drawing.Size(341, 306);
             this.dgvContactList.TabIndex = 19;
             this.dgvContactList.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvContactList_RowHeaderMouseClick);
             // 
@@ -253,36 +254,43 @@
             // 
             // btnExportToExcel
             // 
-            this.btnExportToExcel.BackColor = System.Drawing.Color.Thistle;
+            this.btnExportToExcel.BackColor = System.Drawing.Color.Lime;
             this.btnExportToExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExportToExcel.Location = new System.Drawing.Point(12, 283);
+            this.btnExportToExcel.Location = new System.Drawing.Point(11, 325);
             this.btnExportToExcel.Name = "btnExportToExcel";
-            this.btnExportToExcel.Size = new System.Drawing.Size(128, 23);
+            this.btnExportToExcel.Size = new System.Drawing.Size(126, 23);
             this.btnExportToExcel.TabIndex = 22;
             this.btnExportToExcel.Text = "Export to Excel";
             this.btnExportToExcel.UseVisualStyleBackColor = false;
             this.btnExportToExcel.Click += new System.EventHandler(this.btnExportToExcel_Click);
             // 
-            // btnImportFromExcel
-            // 
-            this.btnImportFromExcel.Location = new System.Drawing.Point(146, 282);
-            this.btnImportFromExcel.Name = "btnImportFromExcel";
-            this.btnImportFromExcel.Size = new System.Drawing.Size(127, 23);
-            this.btnImportFromExcel.TabIndex = 23;
-            this.btnImportFromExcel.Text = "Import From Excel";
-            this.btnImportFromExcel.UseVisualStyleBackColor = true;
-            this.btnImportFromExcel.Click += new System.EventHandler(this.btnImportFromExcel_Click);
-            // 
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(76, 97);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 23;
+            // 
+            // lblDateOfBirth
+            // 
+            this.lblDateOfBirth.AutoSize = true;
+            this.lblDateOfBirth.Location = new System.Drawing.Point(14, 103);
+            this.lblDateOfBirth.Name = "lblDateOfBirth";
+            this.lblDateOfBirth.Size = new System.Drawing.Size(54, 13);
+            this.lblDateOfBirth.TabIndex = 24;
+            this.lblDateOfBirth.Text = "Birth Date";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(653, 317);
-            this.Controls.Add(this.btnImportFromExcel);
+            this.ClientSize = new System.Drawing.Size(653, 352);
+            this.Controls.Add(this.lblDateOfBirth);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.btnExportToExcel);
             this.Controls.Add(this.lblSearch);
             this.Controls.Add(this.textBoxSearch);
@@ -339,8 +347,9 @@
         private System.Windows.Forms.TextBox textBoxSearch;
         private System.Windows.Forms.Label lblSearch;
         private System.Windows.Forms.Button btnExportToExcel;
-        private System.Windows.Forms.Button btnImportFromExcel;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label lblDateOfBirth;
     }
 }
 

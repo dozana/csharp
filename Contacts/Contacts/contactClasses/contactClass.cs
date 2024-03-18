@@ -34,6 +34,8 @@ namespace Contacts.contactClasses
             return true; // Validation passed
         }
 
+
+
         // SELECTING DATA FROM DATABASE
         public DataTable Select()
         {

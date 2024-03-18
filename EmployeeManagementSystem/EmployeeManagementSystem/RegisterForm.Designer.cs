@@ -41,7 +41,6 @@
             signup_username = new TextBox();
             label3 = new Label();
             label2 = new Label();
-            exit = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -186,18 +185,6 @@
             label2.TabIndex = 11;
             label2.Text = "Register Account";
             // 
-            // exit
-            // 
-            exit.AutoSize = true;
-            exit.Cursor = Cursors.Hand;
-            exit.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            exit.Location = new Point(550, 9);
-            exit.Name = "exit";
-            exit.Size = new Size(16, 17);
-            exit.TabIndex = 10;
-            exit.Text = "X";
-            exit.Click += exit_Click;
-            // 
             // RegisterForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -212,11 +199,9 @@
             Controls.Add(signup_username);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(exit);
-            FormBorderStyle = FormBorderStyle.None;
             Name = "RegisterForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "RegisterForm";
+            Text = "Registration";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -238,6 +223,5 @@
         private TextBox signup_username;
         private Label label3;
         private Label label2;
-        private Label exit;
     }
 }

@@ -1,0 +1,10 @@
+C:\Users\_\Desktop\csharp\Examples\2_2_multiplication_of_to_integers\bin\Debug\2_2_multiplication_of_to_integers.exe.config
+C:\Users\_\Desktop\csharp\Examples\2_2_multiplication_of_to_integers\bin\Debug\2_2_multiplication_of_to_integers.exe
+C:\Users\_\Desktop\csharp\Examples\2_2_multiplication_of_to_integers\bin\Debug\2_2_multiplication_of_to_integers.pdb
+C:\Users\_\Desktop\csharp\Examples\2_2_multiplication_of_to_integers\obj\Debug\2_2_multiplication_of_to_integers.csproj.AssemblyReference.cache
+C:\Users\_\Desktop\csharp\Examples\2_2_multiplication_of_to_integers\obj\Debug\_2_2_multiplication_of_to_integers.Form1.resources
+C:\Users\_\Desktop\csharp\Examples\2_2_multiplication_of_to_integers\obj\Debug\_2_2_multiplication_of_to_integers.Properties.Resources.resources
+C:\Users\_\Desktop\csharp\Examples\2_2_multiplication_of_to_integers\obj\Debug\2_2_multiplication_of_to_integers.csproj.GenerateResource.cache
+C:\Users\_\Desktop\csharp\Examples\2_2_multiplication_of_to_integers\obj\Debug\2_2_multiplication_of_to_integers.csproj.CoreCompileInputs.cache
+C:\Users\_\Desktop\csharp\Examples\2_2_multiplication_of_to_integers\obj\Debug\2_2_multiplication_of_to_integers.exe
+C:\Users\_\Desktop\csharp\Examples\2_2_multiplication_of_to_integers\obj\Debug\2_2_multiplication_of_to_integers.pdb

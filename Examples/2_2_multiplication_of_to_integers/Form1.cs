@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _2_1_addition_of_to_integers
+namespace _2_2_multiplication_of_to_integers
 {
     public partial class Form1 : Form
     {
@@ -21,13 +21,13 @@ namespace _2_1_addition_of_to_integers
         {
             try
             {
-                int number1, number2, sum;
+                int num1, num2, result;
 
-                number1 = Convert.ToInt32(textBox1.Text);
-                number2 = Convert.ToInt32(textBox2.Text);
-                sum = number1 + number2;
+                num1 = int.Parse(textBox1.Text);
+                num2 = int.Parse(textBox2.Text);
+                result = num1 * num2;
 
-                label3.Text = sum.ToString();
+                label3.Text = result.ToString();
             }
             catch (Exception ex)
             {

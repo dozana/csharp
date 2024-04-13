@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_1_addition_of_to_integers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_2_multiplication_of_to_integers", "2_2_multiplication_of_to_integers\2_2_multiplication_of_to_integers.csproj", "{F1D12686-045A-455B-9FE5-D3311902E4C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_3_different_uppercase_and_lowercase_characters", "2_3_different_uppercase_and_lowercase_characters\2_3_different_uppercase_and_lowercase_characters.csproj", "{06C81CB2-FADD-4A37-BB49-D1E527C59430}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F1D12686-045A-455B-9FE5-D3311902E4C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1D12686-045A-455B-9FE5-D3311902E4C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1D12686-045A-455B-9FE5-D3311902E4C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C81CB2-FADD-4A37-BB49-D1E527C59430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C81CB2-FADD-4A37-BB49-D1E527C59430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C81CB2-FADD-4A37-BB49-D1E527C59430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C81CB2-FADD-4A37-BB49-D1E527C59430}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

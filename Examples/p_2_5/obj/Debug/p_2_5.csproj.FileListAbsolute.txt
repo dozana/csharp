@@ -1,0 +1,10 @@
+C:\Users\_\Desktop\csharp\Examples\p_2_5\bin\Debug\p_2_5.exe.config
+C:\Users\_\Desktop\csharp\Examples\p_2_5\bin\Debug\p_2_5.exe
+C:\Users\_\Desktop\csharp\Examples\p_2_5\bin\Debug\p_2_5.pdb
+C:\Users\_\Desktop\csharp\Examples\p_2_5\obj\Debug\p_2_5.csproj.AssemblyReference.cache
+C:\Users\_\Desktop\csharp\Examples\p_2_5\obj\Debug\p_2_5.Form1.resources
+C:\Users\_\Desktop\csharp\Examples\p_2_5\obj\Debug\p_2_5.Properties.Resources.resources
+C:\Users\_\Desktop\csharp\Examples\p_2_5\obj\Debug\p_2_5.csproj.GenerateResource.cache
+C:\Users\_\Desktop\csharp\Examples\p_2_5\obj\Debug\p_2_5.csproj.CoreCompileInputs.cache
+C:\Users\_\Desktop\csharp\Examples\p_2_5\obj\Debug\p_2_5.exe
+C:\Users\_\Desktop\csharp\Examples\p_2_5\obj\Debug\p_2_5.pdb

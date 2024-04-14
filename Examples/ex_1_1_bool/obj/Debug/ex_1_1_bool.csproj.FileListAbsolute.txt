@@ -1,0 +1,10 @@
+C:\Users\_\Desktop\csharp\Examples\ex_1_1_bool\bin\Debug\ex_1_1_bool.exe.config
+C:\Users\_\Desktop\csharp\Examples\ex_1_1_bool\bin\Debug\ex_1_1_bool.exe
+C:\Users\_\Desktop\csharp\Examples\ex_1_1_bool\bin\Debug\ex_1_1_bool.pdb
+C:\Users\_\Desktop\csharp\Examples\ex_1_1_bool\obj\Debug\ex_1_1_bool.csproj.AssemblyReference.cache
+C:\Users\_\Desktop\csharp\Examples\ex_1_1_bool\obj\Debug\ex_1_1_bool.Form1.resources
+C:\Users\_\Desktop\csharp\Examples\ex_1_1_bool\obj\Debug\ex_1_1_bool.Properties.Resources.resources
+C:\Users\_\Desktop\csharp\Examples\ex_1_1_bool\obj\Debug\ex_1_1_bool.csproj.GenerateResource.cache
+C:\Users\_\Desktop\csharp\Examples\ex_1_1_bool\obj\Debug\ex_1_1_bool.csproj.CoreCompileInputs.cache
+C:\Users\_\Desktop\csharp\Examples\ex_1_1_bool\obj\Debug\ex_1_1_bool.exe
+C:\Users\_\Desktop\csharp\Examples\ex_1_1_bool\obj\Debug\ex_1_1_bool.pdb
